@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+main {
+  padding: 20
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+Section {
+  Width: 80%;
+  Margin-bottom: 40px;
+}
+
+H2 {
+  Font-size: 24px;
+  Margin-bottom: 20px;
+}
+
+P {
+  Font-size: 16px;
+  Line-height: 1.5;
+}
+
+Button {
+  Background-color: #333;
+  Color: #fff;
+  Border: none;
+  Padding: 10px 20px;
+  Border-radius: 5px;
+  Cursor: pointer;
+}
+
+Form {
+  Display: flex;
+  Flex-wrap: wrap;
+  Align-items: center;
+  Margin-top: 20px;
+}
+
+Label {
+  Margin-right: 10px;
+  Font-size: 16px;
+}
+
+Input[type=”text”] {
+  Padding: 10px;
+  Border-radius: 5px;
+  Border: 1px solid #ccc;
+  Font-size: 16px;
+}
+
+.hidden {
+  Display: none;
+}
+
+Footer {
+  Background-color: #333;
+  Color: #fff;
+  Padding: 20px;
+  Text-align: center;
+}

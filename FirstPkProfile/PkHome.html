@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+ <meta charset=”UTF-8”>
+  <title>My Profile Page</title>
+  <link rel=”stylesheet” href=”style.css”>
+<style>
+/* Reset styles */
+•	{
+  Margin: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+}
+
+/* Basic styles */
+Body {
+  Font-family: Arial, sans-serif;
+  Font-size: 16px;
+  Line-height: 1.5;
+}
+
+.container {
+  Max-width: 1200px;
+  Margin: 0 auto;
+  Padding: 0 20px;
+}
+
+Header {
+  Background-color: #333;
+  Color: #fff;
+  Padding: 20px 0;
+}
+
+Header h1 {
+  Font-size: 2rem;
+  Font-weight: bold;
+  Text-align: center;
+  Margin-bottom: 10px;
+}
+
+Nav ul {
+  List-style: none;
+  Text-align: center;
+}
+
+Nav ul li {
+  Display: inline-block;
+  Margin-right: 20px;
+}
+
+Nav ul li:last-child {
+  Margin-right: 0;
+}
+
+Nav ul li a {
+  Color: #fff;
+  Text-decoration: none;
+  Transition: color 0.3s ease;
+}
+
+Nav ul li a:hover {
+  Color: #ccc;
+}
+
+Section {
+  Padding: 50px 0;
+}
+
+Section h2 {
+  Font-size: 2rem;
+  Font-weight: bold;
+  Text-align: center;
+  Margin-bottom: 20px;
+}
+.profile-pic {
+  width:200px;
+  border-radius:100%;
+  cursor:pointer;
+  margin-left:43%;
+ 
+
+}
+
+
+Section ul {
+  List-style: none;
+  Text-align: center;
+}
+
+Section ul li {
+  Display: inline-block;
+  Margin-right: 20px;
+}
+
+Section ul li:last-child {
+  Margin-right: 0;
+}
+
+Section#skills {
+  Background-color: #f5f5f5;
+}
+
+Section#projects {
+  Background-color: #fff;
+}
+
+Section#projects .project {
+  Margin-bottom: 50px;
+}
+
+Section#projects .project img {
+  Display: block;
+  Margin: 0 auto;
+  Max-width: 100%;
+  Height: auto;
+}
+
+Section#projects .project h3 {
+  Font-size: 1.5rem;
+  Font-weight: bold;
+  Text-align: center;
+  Margin: 20px 0;
+}
+
+Section#projects .project p {
+  Text-align: justify;
+}
+
+Section#contact {
+  Background-color: #f5f5f5;
+}
+
+Form {
+  Max-width: 500px;
+  Margin: 0 auto;
+}
+
+.form-group {
+  Margin-bottom: 20px;
+}
+
+.form-group label {
+  Display: block;
+  Font-size: 1rem;
+  Font-weight: bold;
+  Margin-bottom: 10px;
+}
+
+.form-group input[type=”text”],
+.form-group input[type=”email”],
+.form-group textarea {
+  Display: block;
+  Width: 100%;
+  Padding: 10px;
+  Font-size: 1rem;
+  Border: 1px solid #ccc;
+  Border-radius: 4px;
+  Box-shadow: none;
+}
+
+.form-group textarea {
+  Height: 100px;
+}
+
+Button[type=”submit”] {
+  Display: block;
+  Width: 100
+Padding: 10px;
+Background-color: #333;
+Color: #fff;
+Font-size: 1rem;
+Font-weight: bold;
+Text-align: center;
+Border: none;
+Border-radius: 4px;
+Box-shadow: none;
+Cursor: pointer;
+Transition: background-color 0.3s ease;
+}
+
+Button[type=”submit”]:hover {
+Background-color: #ccc;
+Color: #333;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <div class=”container”>
+      <h1>My Profile Page</h1>
+      <nav>
+        <ul>
+          <li><a href="PkHome.html">Home</a></li>
+          <li><a href="PkAboutMe.html">About</a></li>
+          <li><a href="PkContact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id=”intro”>
+      <div class=”container”>
+        <h2>About Me</h2>
+        <img src="C:\Users\om\Desktop\PardeepProfile\FirstPkProfile\PkImages\Pkimage.jpg" class="profile-pic">
+        <p>Hi, My name is<b> Pardeep Kumar</b> and I’m a web developer. I have some experience in designing and
+           developing websites and web applications. I love coding and creating
+            new things on the web.</p>
+      </div>
+    </section>
+<div class="container">
+  <section class="section">
+   <h2>Personal Information</h2>
+   <ul>
+    <li><strong>Name:</strong> Pardeep Kumar</li>
+    <li><strong>Github URL:</strong> <a href="https://github.com/Pardeep2842/">https://github.com/Pardeep2842/</a></li>
+    <li><strong>LinkedIn URL:</strong> <a href="https://www.linkedin.com/in/pardeep-kumar-4a451023a/">https://www.linkedin.com/in/pardeep-kumar-4a451023a//</a></li>
+   </ul>
+  </section>
+  <section class="section">
+   <h2>Experience</h2>
+   <ul>
+    <li>Engineer in R&D Department,ND Industries pvt.ltd. (August 2021 -September 2022 )</li>
+    <li>Intern, Skill-Lync (Feb. 2023 - Jan. 2023)</li>
+   </ul>
+  </section>
+ <section class="section">
+   <h2>Education</h2>
+   <ul>
+    <li>Bachelor's degree in Electrical & Electronic Engineer, JC BOSS YMCA Univeristy Faridabad</li>
+   </ul>
+  </section>
+  <section class="section">
+   <h2>Certifications</h2>
+   <ul>
+    <li> Certified Java Programmer</li>
+
+    <li> Certified MySQl & MongoDb Database</li>
+
+    <li> Certified DSA</li>
+
+    <li> Certified Programing Practice</li>
+
+    <li> Certified Microservices Programmer</li>
+   </ul>
+  </section>
+  <section class="section">
+   <h2>Hobbies</h2>
+   <ul>
+    <li>Playing Cricket</li>
+    <li>Reading books</li>
+    <li>Morning Walk & Excercise</li>
+   </ul>
+  </section>
+ </div>
+    <section id=”skills”>
+      <div class=”container”>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>JAVA</li>
+          <li>MySQL</li>
+          <li>MongoDb</li>
+          <li>Microserveies</li>
+          <li>DSA</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id=”projects”>
+      <div class=”container”>
+        <h2>Projects</h2>
+        <div class=”project”>
+          <h3>Project 1</h3>
+          <p>Project1 is related to Ecommerce project using java.</p>
+        </div>
+        <div class=”project”>
+        
+          <h3>Project 2</h3>
+          <p>Project2 is related to Banking System project using java..</p>
+        </div>
+        <div class=”project”>
+          
+          <h3>Project 3</h3>
+          <p>Project3 is related to Ecommerce project using MySql database.</p>
+        </div>
+          <div class=”project”>
+        
+          <h3>Project 4</h3>
+          <p>Project4 is related to Ecommerce project using MongoDb database.</p>
+        </div>
+       <div class=”project”>
+          <img src=”project-5.jpg” alt=”Project 5”>
+          <h3>Project5</h3>
+          <p>Project5 is related to Electricity Billing System project using HTML,css,java etc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type "email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+</div>
+<button type="submit">Send Message</button>
+</form>
+</div>
+</section>
+
+  </main>
+<script>
+  // Add a "mailto" link to the email address
+  const email = 'pardeepkumar2842@gmail.com';
+  const emailLink = document.createElement('a');
+  emailLink.href = 'mailto:' + email;
+  emailLink.textContent = email;
+  document.querySelector(('section:nth-of-type(1) ul').appendChild(document.createElement('li')).appendChild(emailLink);
+</script>
+
+  <footer>
+    <div class="container">
+      <p>Created By: 2023 Pardeep Kumar(@pardeepkumar2842@gmail.com)</p>
+    </div>
+  </footer>
+</body>
+</html>

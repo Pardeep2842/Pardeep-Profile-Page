@@ -8,7 +8,6 @@ using html and css.
 # Project documentation
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=200px src="https://github.com/Pardeep2842/Electricity-Billing-System/blob/main/Screenshot%20(13).png" alt="Project logo"></a>
 </p>
 
 
